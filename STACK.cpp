@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
 template <class X>class stack
 {
@@ -17,4 +18,7 @@ template <class X>class stack
 	X pop(){	return arr[top--];}
 	void clear(){	while(!isempty())	arr[top--];	}
 };
-
+int main()
+{
+	return 0;
+}
